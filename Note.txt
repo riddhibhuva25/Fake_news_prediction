@@ -1,0 +1,25 @@
+========================================================================
+IMPORTANT: DATASET DOWNLOAD REQUIRED
+========================================================================
+
+The dataset used in this project (WELFake_Dataset.csv) is too large 
+(233.73 MB) to be hosted directly on GitHub due to their 100 MB file 
+size limits.
+
+To run this project locally, please follow these steps:
+
+1. Download the dataset:
+   Go to Kaggle and download the "WELFake - Word Embedding - Fake News Dataset":
+   https://www.kaggle.com/datasets/saurabhshahane/velfake-dataset
+
+2. Setup the file:
+   - Extract the downloaded ZIP file.
+   - Rename the CSV file to: WELFake_Dataset.csv
+   - Place the file directly into the project's root directory:
+     /Projects/Fake_news_prediction/
+
+3. Run the project:
+   Once the file is in place, your Jupyter Notebooks or Python scripts 
+   will be able to load the data successfully.
+
+========================================================================
