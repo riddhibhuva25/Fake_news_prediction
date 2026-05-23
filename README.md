@@ -123,7 +123,7 @@ The Elbow Method was used to determine the optimal number of clusters.
 
 ---
 
-🤖 K-Means Clustering
+# 🤖 K-Means Clustering
 
 The final clustering model was trained using:
 
@@ -131,8 +131,10 @@ KMeans(n_clusters=5, random_state=42)
 
 The model grouped customers into 5 distinct segments.
 
-📏 Model Evaluation
-Silhouette Score
+---
+
+# 📏 Model Evaluation
+### Silhouette Score
 
 Silhouette Score was used to evaluate clustering quality.
 
@@ -140,7 +142,9 @@ A higher silhouette score indicates:
 
 Better cluster separation
 Better clustering performance
-📈 Cluster Visualization
+
+---
+# 📈 Cluster Visualization
 
 The clusters were visualized using scatter plots:
 
@@ -150,7 +154,9 @@ Different colors represent different customer segments
 
 This helps understand customer behavior patterns visually.
 
-👥 Customer Segment Profiling
+---
+
+# 👥 Customer Segment Profiling
 
 Cluster-wise analysis was performed using:
 
@@ -163,16 +169,20 @@ This helps businesses understand:
 High-income high-spending customers
 Low-income low-spending customers
 Target customer groups
-🔮 New Customer Segment Prediction
+
+---
+# 🔮 New Customer Segment Prediction
 
 A reusable function was created to predict the segment of a new customer.
 
-Example:
+### Example:
 def assign_customer_segment(income_k, spending_score, scaler, model):
 
 This function predicts which cluster a new customer belongs to.
 
-📌 Project Workflow
+---
+
+# 📌 Project Workflow
 Data Collection
        ↓
 Exploratory Data Analysis
@@ -192,12 +202,16 @@ Cluster Visualization
 Customer Profiling
        ↓
 Prediction Function
-🚀 Results
+
+---
+# 🚀 Results
 Successfully segmented customers into meaningful groups
 Identified customer spending patterns
 Achieved good clustering separation using K-Means
 Built a practical clustering workflow for business analytics
-📷 Sample Visualizations
+
+---
+# 📷 Sample Visualizations
 
 The project includes:
 
@@ -207,7 +221,9 @@ Scatter plots
 Elbow curve
 Silhouette score visualization
 Cluster plots
-💡 Real-World Applications
+
+---
+# 💡 Real-World Applications
 
 Customer segmentation is widely used in:
 
@@ -218,24 +234,30 @@ Business Strategy
 Product Marketing
 Retail Analytics
 
-▶️ How to Run the Project
-1. Clone Repository
-git clone https://github.com/your-username/Customer_segmentation_clustering.git
-2. Install Dependencies
+---
+
+# ▶️ How to Run the Project
+### 1. Clone Repository
+git clone https://github.com/riddhibhuva25/Customer_segmentation_clustering
+### 2. Install Dependencies
 pip install -r requirements.txt
-3. Run Jupyter Notebook
+### 3. Run Jupyter Notebook
 jupyter notebook
-📚 Key Learnings
+
+---
+# 📚 Key Learnings
 
 Through this project, I learned:
 
-How K-Means clustering works
-Importance of feature scaling
-How to select optimal clusters
-How to evaluate clustering models
-Customer behavior analysis
-Data visualization techniques
-🙋‍♀️ Author
+* How K-Means clustering works
+* Importance of feature scaling
+* How to select optimal clusters
+* How to evaluate clustering models
+* Customer behavior analysis
+* Data visualization techniques
+
+  ---
+# 🙋‍♀️ Author
 
 Riddhi Patel
 
@@ -243,4 +265,4 @@ Machine Learning Enthusiast | Data Science Learner
 
 GitHub: https://github.com/
 LinkedIn: https://linkedin.com/
-⭐ If you found this project useful, give it a star!
+# ⭐ If you found this project useful, give it a star!
